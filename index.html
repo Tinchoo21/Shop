@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content = "width = device-width, initial-scale=1.0" />
+        <title>Shop</title>
+      <link rel="stylesheet" href="styles.css" /> 
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      />
+
+    </head>
+    <body>
+
+               <h1>Shop</h1>
+
+        <section class="container">
+
+          <div class="cont">
+
+            <div class="left-cont">
+
+              <h2>Vegetables</h2>
+<hr>
+              <div class="row">
+                
+                    <img src="tomato1.png" alt="">
+               
+               
+                 <div class="block">
+                   <h3 class="name">Tomato</h3>
+           <h3 class="price">$2.5</h3></div>
+
+                   <div class="row1" id="inAll">
+                    <input type="number" min="0"  id="inAll1" class="in" value="0"> <br><br>
+
+                    <button class="plus " onclick="plus(this)">&#43;</button>
+                    <button class="minus" onclick="min(this)">&#8722;</button> <br><br>
+                    <button class="add" onclick="addBtn(this)" >Add</button>
+                
+              </div>
+              </div>
+<hr>
+              <div class="row">
+                <img src="potato.png" alt="">
+                <div class="block">
+                  <h3 class="name">Potato</h3>
+                  <h3 class="price">$1.5</h3>
+                </div>
+                <div class="row1"  id="inAll">
+                  <input type="number" min="0" id="inAll1" class="in" value="0"> <br><br>
+
+                  <button class="plus " onclick="plus(this)">&#43;</button>
+                  <button class="minus" onclick="min(this)">&#8722;</button> <br><br>
+            <button class="add" onclick="addBtn(this)">Add</button>
+               
+             </div>
+             
+             </div>
+<hr>
+             <div class="row" >
+              <img src="broccoli.png" alt="">
+              <div class="block">
+                <h3 class="name">Broccoli</h3>
+                <h3 class="price">$2</h3>
+              </div>
+              <div class="row1"  id="inAll">
+                <input type="number" min="1" id="inAll1" class="in" value="0"> <br><br>
+
+                <button class="plus " onclick="plus(this)">&#43;</button>
+                <button class="minus" onclick="min(this)">&#8722;</button> <br><br>
+            <button class="add" onclick="addBtn(this)">Add</button>
+             
+           </div>
+           
+           </div>
+
+           <hr>
+           <div class="row" >
+            <img src="carrot.png" alt="">
+            <div class="block">
+              <h3 class="name">Carrot</h3>
+              <h3 class="price">$1</h3>
+            </div>
+            <div class="row1"  id="inAll">
+              <input type="number" min="1" id="inAll1" class="in" value="0"> <br><br>
+
+              <button class="plus " onclick="plus(this)">&#43;</button>
+              <button class="minus" onclick="min(this)">&#8722;</button> <br><br>
+              <button class="add" onclick="addBtn(this)">Add</button>
+           
+         </div>
+         
+         </div>
+
+         <hr>
+         <div class="row" >
+          <img src="paprika.png" alt="">
+          <div class="block">
+            <h3 class="name">Paprika</h3>
+            <h3 class="price">$2</h3>
+          </div>
+          <div class="row1"  id="inAll">
+            <input type="number" min="1" id="inAll1" class="in" value="0"> <br><br>
+
+            <button class="plus " onclick="plus(this)">&#43;</button>
+            <button class="minus" onclick="min(this)">&#8722;</button> <br><br>
+            <button class="add" onclick="addBtn(this)">Add</button>
+         
+       </div>
+       
+       </div>
+
+             
+             
+
+            </div>
+
+
+            <div class="right-cont">
+
+              <h2>Basket</h2>
+
+              <hr>
+
+              <div class="newElements">
+
+                
+
+
+
+              </div>
+<div class="total">
+  
+                 <h2 >Total sum: <span class="totalS"></span></h2>
+</div>
+            </div>
+          </div>
+           
+   
+     
+            
+
+
+
+        </section>
+
+        <!-- Javascript-->
+        <script src="app.js"></script>
+    </body>
+</html>

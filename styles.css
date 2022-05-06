@@ -1,0 +1,256 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+body{
+
+
+    margin: 0;
+    background-image: url("back.jpg");
+}
+
+h1{
+
+
+
+    text-align: center;
+}
+
+
+img
+{
+
+    max-width: 25%;
+    max-height: 25%;
+}
+
+
+.cont{
+
+width: 100%;
+  display: inline-flex;
+  padding: 20px;
+ 
+  
+ 
+}
+
+.left-cont{
+
+
+  
+  
+    text-align: center;
+    width: 50%;
+    background-color: antiquewhite;
+    
+}
+.left-cont img{
+
+
+  
+    padding-left: 5px;
+    cursor: pointer;
+  
+  
+  
+    
+
+    
+    
+}
+
+
+
+.right-cont{
+
+   
+  
+    text-align: center;
+  
+    width: 50%;
+
+    background-color: whitesmoke;
+}
+.block
+{
+    width: 50%;
+    text-align: center;
+    padding-top: 4%;
+   
+    
+}
+
+
+
+.row
+{
+    display: inline-flex;
+    max-width: 100%;
+  
+}
+#inAll{
+
+
+    width: 25%;
+   
+    padding-top: 4%;
+
+}
+#inAll1 input{
+
+    max-width: 100%;
+   
+    
+}
+#inAll1
+{
+     width:50%;
+}
+
+
+.plus
+{
+    border-style: solid;
+    padding: 4% 5%;
+    cursor: pointer;
+    background: none;
+}
+
+
+.plus:hover{
+
+
+    background-color: beige;
+}
+
+.minus:hover
+{
+    background-color: beige;
+}
+.minus{
+
+    border-style: solid;
+    padding: 4% 5%;
+    cursor: pointer;
+    background: none;
+}
+.add{
+
+    padding: 5% 10%;
+    background: none;
+    cursor: pointer;
+}
+
+
+.add:hover
+{
+    background-color: beige;
+}
+
+li{
+
+    list-style-type:none;
+}
+
+
+li {
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+   
+  }
+
+
+  li:hover {
+    background: #ddd;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+.total
+{
+
+
+    position: fixed;
+  bottom: 0;
+  
+  }
+@media only screen and (max-width: 800px) {
+   
+   .cont
+   {
+       display: block;
+   }
+
+   .left-cont{
+
+    width: 100%;
+   }
+   .right-cont
+   {
+       width: 100%;
+   }
+   .row{
+
+    display: block;
+    text-align: center;
+   }
+   .block
+   {
+       width: 100%;
+   }
+   #inAll
+   {
+       width: 100%;
+       padding: 0;
+   }
+   .row img{
+
+    padding: 0;
+   }
+
+   .plus
+{
+    border-style: solid;
+    padding: 1.5%;
+    
+}
+.minus{
+
+    border-style: solid;
+    padding: 1.5%;
+}
+.add{
+
+    padding: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: none;
+    cursor: pointer;
+}
+
+#inAll1
+{
+    width: 10%;
+}
+}
+  
